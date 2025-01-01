@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LLL",
+      "LSL",
+      "LLL"
+    ],
+    "key": {
+      "L": "#minecraft:leaves",
+      "S": "#minecraft:saplings"
+    },
+    "result": {
+      "id": "minecraft:apple",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Apple\",\"color\":\"red\",\"bold\":true}"
+      },
+      "count": 2
+    }
+  }
