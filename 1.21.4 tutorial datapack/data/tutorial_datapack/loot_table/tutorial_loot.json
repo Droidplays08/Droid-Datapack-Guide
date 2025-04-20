@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 2,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot",
+            "weight": 4,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ],
+            "conditions": []
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "tutorial_datapack:junk_loot",
+            "weight": 1,
+            "functions": []
+          }
+        ]
+      }
+    ]
+  }
